@@ -1,15 +1,15 @@
 import ez_setup
 ez_setup.use_setuptools()
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
-exec(open('rubix/version.py').read()) # loads __version__
-
-setup(name='rubix',
-      version=__version__,
-      author='Amit',
-    description='',
+setup(
+    name='rubix',
+    version='0.0.1',
+    author='Amit Rathi',
+    description='Python package to enables DevOps tasks in Jupyter Notebooks',
     long_description=open('README.rst').read(),
-    license='see LICENSE.txt',
-    keywords="",
-    packages= find_packages(exclude='docs'))
+    license='GNU Lesser General Public License v3.0',
+    keywords=['DevOps', 'Jupyter', 'nurtch'],
+    packages=['rubix']
+)
