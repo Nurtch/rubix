@@ -43,3 +43,6 @@ nosetests.xml
 
 .pypirc
 .idea
+*.ipynb
+.ipynb_checkpoints
+.DS_Store
