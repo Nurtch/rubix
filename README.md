@@ -1,13 +1,13 @@
 # Rubix
 
 ### What is Rubix?
-A Python library to perform common DevOps operations inside Jupyter Notebooks. E.g. Plot Cloudwatch metrics, rollback your app on ECS/kubernetes cluster.
+Python library that makes it easy to perform common DevOps tasks inside Jupyter Notebooks. Common tasks such as plot Cloudwatch metrics, rollback your ECS/kubernetes app etc.
 
 ### When to use it?
-It's most useful for writing incident runbooks/playbooks. On-call can read instructions & execute steps right from the Jupyter Notebook. I wrote about it in the blog [here](https://hackernoon.com/simplify-devops-with-jupyter-notebook-c700fb6b503c).
+It's most useful for writing incident runbooks/playbooks. On-call can read instructions & execute steps right from the Jupyter Notebook. I wrote more about the use case [here](https://hackernoon.com/simplify-devops-with-jupyter-notebook-c700fb6b503c).
 
 ### Why Jupyter Notebook?
-  - Jupyter allows interleaving instructions and executable code. Ideal for quick incident response.
+  - Jupyter allows interleaving instructions and executable code. Ideal for writing runbooks for quick incident response.
   - Rich HTML output makes it easy to plot graphs, show deployment status etc.
   - Low friction way to edit/view/execute notebooks in a browser.
 
