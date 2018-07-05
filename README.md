@@ -22,9 +22,12 @@ For your Jupyter/JupyterHub setup, just execute the following at the top of any 
 Rubix also comes pre-installed with [nurtch](http://nurtch.com) multi-user Jupyter setup.
 
 # Usage
-Complete documentation is available below. These are a few sample usage.
+Complete documentation is available below. These are a few example usage of the library.
 
+### Plot Cloudwatch Metrics
 ![Cloudwatch Metrics Example](http://docs.nurtch.com/en/latest/_images/plot_metric_example.png)
+
+### Rollback Service in ECS
 ![ECS Rollback Example](http://docs.nurtch.com/en/latest/_images/ecs_rollback.png)
 
 
