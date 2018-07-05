@@ -1,18 +1,19 @@
 # Rubix
 
 ### What is Rubix?
-Python library that makes it easy to perform common DevOps operations inside Jupyter Notebooks. Some examples of common operations include plot Cloudwatch metrics, rollback your app on ECS/kubernetes cluster.
+A Python library to perform common DevOps operations inside Jupyter Notebooks. E.g. Plot Cloudwatch metrics, rollback your app on ECS/kubernetes cluster.
 
 ### When to use it?
-It's useful for writing incident runbooks/playbooks. Steps that on-call needs to perform are written as instructions accompanied with executable code.
+It's most useful for writing incident runbooks/playbooks. On-call can read instructions & execute steps right from the Jupyter Notebook. I wrote about it in the blog [here](https://hackernoon.com/simplify-devops-with-jupyter-notebook-c700fb6b503c).
 
 ### Why Jupyter Notebook?
-  - Jupyter allows interleaving instructions and code. Ideal for quick incident response.
+  - Jupyter allows interleaving instructions and executable code. Ideal for quick incident response.
   - Rich HTML output makes it easy to plot graphs, show deployment status etc.
-  - Low friction edit/view/execute notebooks in a browser.
+  - Low friction way to edit/view/execute notebooks in a browser.
 
 # Live In Action
-Checkout this 1-minute debugging session to see how Rubix helped root cause API latency.
+Checkout this 1-minute debugging session to see how Rubix helped root cause API latency issue.
+
 [![Demo Video](https://uploads-ssl.webflow.com/5adf07174a787c7249ade79f/5b0cfeb0db589c364b44ee72_Video_Thumbnail_2.png)](https://www.youtube.com/watch?v=vvLXSAHCGF8&rel=0&autoplay=0 "API Latency Demo")
 
 # Documentation
@@ -23,12 +24,12 @@ Checkout this 1-minute debugging session to see how Rubix helped root cause API 
 
 # Installation
 ```
-pip install rubix
+!pip install rubix
 ```
 For your Jupyter/JupyterHub setup, just execute the following at the top of any notebook. Rubix also comes pre-installed with [nurtch](http://nurtch.com) multi-user Jupyter setup.
 
 # Usage
-Complete documentation is linked above. These are a few example usage of the library.
+Complete documentation is linked above. Here are some usage examples.
 
 ### Plot Cloudwatch Metrics
 ![Cloudwatch Metrics Example](http://docs.nurtch.com/en/latest/_images/plot_metric_example.png)
