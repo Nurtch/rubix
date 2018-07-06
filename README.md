@@ -1,5 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/rubix.svg)](https://badge.fury.io/py/rubix) [![Build Status](https://travis-ci.org/amit1rrr/rubix.svg?branch=master)](https://travis-ci.org/amit1rrr/rubix)
-# Rubix
+[![PyPI version](https://badge.fury.io/py/rubix.svg)](https://badge.fury.io/py/rubix)
 
 ### What is Rubix?
 Python library that makes it easy to perform common DevOps tasks inside Jupyter Notebooks. E.g. plot Cloudwatch metrics, rollback your ECS/kubernetes app etc.
