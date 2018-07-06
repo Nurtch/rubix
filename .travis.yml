@@ -12,4 +12,4 @@ python:
   - "nightly"
 
 install:
-- pip install --upgrade plotly, pandas, boto3, kubernetes
+- pip install --upgrade plotly pandas boto3 kubernetes
