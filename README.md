@@ -4,7 +4,7 @@
 Python library that makes it easy to perform common DevOps tasks inside Jupyter Notebooks. E.g. plot Cloudwatch metrics, rollback your ECS/kubernetes app etc.
 
 ### When to use it?
-While Rubix can be used in other contexts, it's most useful for writing incident runbooks/playbooks. On-call can read instructions & execute steps right from the Jupyter Notebook. I wrote more about the use case [here](https://hackernoon.com/simplify-devops-with-jupyter-notebook-c700fb6b503c).
+While Rubix can be used in many contexts, it's most useful for writing incident runbooks/playbooks. On-call can read instructions & execute steps right from the Jupyter Notebook. I wrote more about the use case [here](https://hackernoon.com/simplify-devops-with-jupyter-notebook-c700fb6b503c).
 
 ### Why Jupyter Notebook?
   - Jupyter allows interleaving instructions and executable code. Ideal for quick incident response.
