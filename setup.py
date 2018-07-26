@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='rubix',
-    version='0.0.4',
+    version='0.0.8',
     author='Amit Rathi',
     description='Python package to enables DevOps tasks in Jupyter Notebooks',
     long_description=open('README.md').read(),
@@ -15,9 +15,11 @@ setup(
     package_data={'rubix': ['rubix/assets/css/*.css']},
     include_package_data=True,
     install_requires=[
+        'wheel',
         'plotly',
         'pandas',
         'boto3',
-        'kubernetes'
+        'kubernetes',
+        'ipywidgets'
     ]
 )
