@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='rubix',
-    version='0.0.8',
+    version='0.0.9',
     author='Amit Rathi',
     description='Python package to enables DevOps tasks in Jupyter Notebooks',
     long_description=open('README.md').read(),
@@ -20,6 +20,8 @@ setup(
         'pandas',
         'boto3',
         'kubernetes',
-        'ipywidgets'
+        'ipywidgets',
+        'ipython-sql',
+        'psycopg2-binary'
     ]
 )
